@@ -20,7 +20,7 @@ var nowYear = now.getFullYear();
 
 //Array collection of holiday objects. 
 var holidayCollection = [
-    new Holiday("Mourning the Queen", 19, 9, 2020),
+    new Holiday("Mourning the Queen", 19, 9, 2022),
     new Holiday("National Day for Truth and Reconciliation", 30, 9, 2022),
     new Holiday("Thanksgiving Day", 10, 10, 2022),
     new Holiday("Halloween", 30, 10, 2022),
@@ -57,8 +57,3 @@ for (let i = 0; i < holidayCollection.length; i++){
 
 console.log(holidayCollection[i].name + ` is ${Math.round((datesDiff))} days away!`);
 }
-
-
-
-
-
